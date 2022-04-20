@@ -1,0 +1,22 @@
+[pageNotExists]
+  other = "La pagina non esiste!"
+[home]
+  other = "Home"
+[newerPosts]
+  other = "Articoli recenti"
+[olderPosts]
+  other = "Articoli precedenti"
+[pageOf]
+  other = "Pagina {{ .PageNumber }} di {{.TotalPages}}"
+[postedOn]
+  other = "Pubblicato il"
+[readMore]
+  other = "Continua"
+[contactMe]
+  other = "Contatti"
+[dateTimeFormat]
+  other = "02.01.2006 alle 15:04"
+[dateFormat]
+  other = "02.01.2006"
+[allTags]
+  other = "Tutti i tags"

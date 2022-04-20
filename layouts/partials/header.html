@@ -32,13 +32,16 @@
   </title>
 
   <link rel="alternative stylesheet" href="{{ .Site.BaseURL }}css/bootstrap.min.css" />
+  <link rel="stylesheet" href="{{ .Site.BaseURL }}css/bootstrap-theme.min.css" />
   <link rel="stylesheet" href="{{ .Site.BaseURL }}css/font-awesome.min.css" />
   <link rel="stylesheet" href="{{ .Site.BaseURL }}css/main.css" />
   <link rel="stylesheet" href="{{ .Site.BaseURL }}css/github.css" />
-  <link rel="stylesheet" href="{{ .Site.BaseURL }}css/color-theme.css" />
-  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400" type="text/css">
   <link rel="shortcut icon" href="{{ .Site.BaseURL }}images/favicon.ico" />
   <link rel="apple-touch-icon" href="{{ .Site.BaseURL }}images/apple-touch-icon.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jaldi&family=Montserrat:wght@500&display=swap" rel="stylesheet">
 
   {{ range .Site.Params.customCSS }}
     <link rel="stylesheet" href="{{ (print "css/" . ) | absURL }}">
