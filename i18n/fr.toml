@@ -1,7 +1,7 @@
 [pageNotExists]
-  other = "That page doesn't exist!"
+  other = "Cette page n'éxiste pas!"
 [home]
-  other = "Home"
+  other = "Accueil"
 [newerPosts]
   other = "Newer Posts"
 [olderPosts]
@@ -9,14 +9,16 @@
 [pageOf]
   other = "Page {{ .PageNumber }} of {{ .TotalPages }}"
 [postedOn]
-  other = "Posted on"
+  other = "Publié le"
 [readMore]
   other = "Read more"
 [contactMe]
   other = "Contact me"
 [dateTimeFormat]
-  other = "02.01.2006 alle 15:04"
+  other = "02.01.2006 à 15:04"
 [dateFormat]
   other = "02.01.2006"
 [allTags]
   other = "All tags"
+[lastArticles]
+  other = "Derniers articles"

@@ -1,8 +1,10 @@
   </main>
+  <hr>
   <footer class="container global-footer">
     <div class="copyright-note pull-left">
       {{ .Site.Copyright | safeHTML }}
     </div>
+    {{ partial "legal.html" . }}
     {{ partial "link.html" . }}
   </footer>
 

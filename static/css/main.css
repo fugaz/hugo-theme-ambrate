@@ -9,7 +9,7 @@ main {
 .global-header {
     background-size: cover;
     background-position-x: center;
-    min-height: 350px;
+    min-height: 250px;
 }
 
 .header-text {
