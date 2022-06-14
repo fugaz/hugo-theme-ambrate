@@ -64,12 +64,6 @@
           {{ . }}
         </h3>
       {{ end }}
-      {{ if ( not .IsHome ) }}
-        <a class="btn btn-default btn-home" href="{{ "" | absLangURL }}">
-          <i class="fa fa-angle-left" aria-hidden="true"></i>
-          &nbsp;{{ i18n "home" }}
-        </a>
-      {{ end }}
       <!-- sites -->
       <div class="navbar-container">
         {{ range .Site.Menus.main }}
